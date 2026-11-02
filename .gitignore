@@ -1,0 +1,17 @@
+vivado/
+xsim.dir/
+.Xil/
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+*.backup.*
+webtalk*
+_acl_recovery/
+xvlog.pb
+xelab.pb
+xsim.jou
+xsim_*.backup.*
+*.ltx
+*.dcp
