@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 仿真生成结果（可复现，不入库）
+sim/results/
+
+# MATLAB 生成结果与日志
+matlab/results/
+*.log
+
+# 生成的 Word 方案书（由 docs/build_docx.py 生成，源为 docs/*.md）
+*.docx
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
