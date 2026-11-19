@@ -25,6 +25,10 @@
 │   ├── compare_golden.py  # C 实现与 Python 模型一致性比对
 │   └── results/           # 图、npz、golden_vectors.csv、run.log
 ├── matlab/                # MATLAB 对标脚本（Simulink 工作流对接）
+├── amc1306/               # AMC1306 功能仿真（MATLAB）：sinc3 群延时/建立时间与补偿
+│   ├── model_amc1306.m    # ΔΣ调制器+Manchester+sinc3(OSR=256) 链模型
+│   ├── analysis_main.m    # 三相稳态/阶跃/补偿方案分析主脚本
+│   └── 群延时分析与补偿方案.md
 ├── fpga/                  # FPGA 电角度外推模块（25kHz 触发 + 5kHz 同步装载）
 │   ├── rtl/angle_extrapolator.v
 │   ├── tb/tb_angle_extrapolator.v
